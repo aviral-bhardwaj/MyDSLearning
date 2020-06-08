@@ -12,7 +12,7 @@ if array[mid]=1 then no swap only mid++'''
 
 def SortingArrayFunction(Array, ArraySize):
     LowValueofArray = 0
-    HighValueofArray = ArraySize-1
+    HighValueofArray = ArraySize-1 # ArraySize = len(Array)
     MediumValueOfArray = 0
 
     while MediumValueOfArray <= HighValueofArray:
